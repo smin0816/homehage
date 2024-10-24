@@ -1,0 +1,160 @@
+/* 공통 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+#name {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* 컨테이너 */
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.container h1:hover{
+    color: #333;
+
+}
+/* 헤더 */
+header {
+    /* 헤더 */
+header {
+    background: linear-gradient(135deg, #406c62, #08dacc);
+    color: #f29811;
+    padding: 70px 0;
+    text-align: center;
+    position: relative; /* 상대 위치 추가 */
+}
+
+/* 네비게이션 스타일 */
+nav {
+    position: absolute; /* 내비게이션을 절대 위치로 설정 */
+    top: 20px; /* 수직 위치 조정 */
+    right: 20px; /* 오른쪽 정렬 */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px; /* 간격 조정 */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+    background: linear-gradient(135deg, #cbe99c, #1c029f); /* 파란색으로 변경 */
+    color: #ffffff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #333;
+}
+
+/* 섹션 */
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #fff;
+}
+
+.section-dark {
+    background-color: #333;
+    color: #fff;
+}
+#about h2 {
+    text-align: left; /* 왼쪽 정렬 */
+    margin-left: 20px; /* 왼쪽 여백 추가 (선택 사항) */
+}
+
+/* 프로젝트 */
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #fff;
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #4285f4; /* 파란색으로 변경 */
+}
+
+/* 연락처 */
+#contact .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4285f4; /* 파란색으로 변경 */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+     /* 새로운 스타일 추가 */
+     position: fixed; /* 고정 위치 */
+     right: 30px; /* 오른쪽에서 30px 떨어진 위치 */
+     bottom: 30px; /* 하단에서 30px 떨어진 위치 */
+     z-index: 1000; /* 다른 요소 위에 위치 */
+ }
+
+#contact .btn:hover {
+    background-color: #0f9d58; /* 초록색으로 변경 */
+    transform: translateY(-5px);
+}
+
+
